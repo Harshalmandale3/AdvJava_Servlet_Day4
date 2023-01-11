@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style type="text/css">
+body{
+background-color: paleturquoise;
+}
+.navbr{
+padding-left: 20pc;
+margin: 2pc;
+}
+ui{
+margin: 2px;
+font-size: 25px;
+font-weight: bold;
+line-height:30px;
+color: navy;
+list-style:none;
+
+}
+li{
+float: left;
+}
+a{
+padding:0 30px;
+display: block;
+text-decoration: none;
+margin: 30px;
+margin-left: 40px;
+color: navy;
+}
+
+.fmr{
+background-color: rgb(226, 215, 200);
+width: 25%;
+padding-bottom: 20px;
+border-radius: 15px;
+font-size: 22px;
+margin-top: 10pc;
+padding-top: 3pc;
+}
+.in1, .in2{
+width: 70%;
+padding-right: 30px;
+margin-bottom: 20px;
+padding: 10px;
+border-radius: 5px;
+font-size: 22px;
+
+}
+
+.clrbtn,.lgnbtn{
+Width:90px;
+height:45px;
+margin: 8px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbr">
+<ui>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboserv">About</a></li>
+<li><a href="contserv">Contact</a></li>
+<li><a href="profserv">Profile</a></li>
+</ui>
+</nav>
+
+<center>
+<div class="fmr">
+<form action="loginserv" method="post">
+<input type="text" name="uname" placeholder="Enter user name" class="in1"><br/>
+<input type="password" name="upass" placeholder="Enter Password" class="in2"><br/>
+<input type="submit" value="Login" name="lgn" class="lgnbtn">
+<input type="reset" value="Clear" class="clrbtn">
+</form>
+
+</div>
+</center>
+
+
+
+</body>
+</html>
